@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background-color: #343434;
+	color: #d6d6d6;
+}
+
+a {
+  color: #cdcdcd;
+}
+a:hover {
+  color: #dedede;
+}
+p {
+  color: #c3c3c3;
+}
+
+/* tabs */
+.tab.on {
+	background-color:rgba(0,0,0,0.25);
+}
+.tab.on p {
+	color:rgba(255,255,255,1);
+}
+.tab.off {}
+.tab.off p {
+	color:rgba(255,255,255,0.5);
+}
+
+/* standard switch button */
+.switch {
+	/* border: solid 1px #161616; */
+	border:none;
+	background-color:rgba(0,0,0,0.25);
+}
+.switch.on .handle {
+	background: #ffffff;	
+}
+.switch.off .handle {
+	background: #6f6f6f;
+}
+/* h switch button */
+.hswitch {
+	/* border: solid 1px #161616; */
+	border:none;
+	background-color:rgba(0,0,0,0.25);
+}
+.hswitch.on .handle {
+	background: #aaaaaa; /* Old browsers */
+}
+.hswitch.off .handle {
+	background: #aaaaaa;
+}
+.hSwitchBlock .l.on {
+	opacity: 1;	
+}
+.hSwitchBlock .r.on {
+	opacity: 1;		
+}
+.hSwitchBlock .l.off {
+	opacity: 0.25;	
+}
+.hSwitchBlock .r.off {
+	opacity: 0.25;
+}
+
+/* horizontal ruler */
+.hr {
+	background-color:none;
+}
+
+/* standard text input area */
+.textArea {
+	/* border: solid 1px #161616; */
+	border:none;
+	background-color:rgba(0,0,0,0.25);
+}
+.textArea input[type=text] {
+	color: #777777;
+}
+
+/* dropdown */
+.dropdown select {
+	background-color:rgba(0,0,0,0.25);
+	/* border: solid 1px #161616; */
+	border:none;
+	color: #777777;
+}
+
+
+
+/* standard button */
+.stdBtn {
+	border: solid 1px #343434;
+	background-color: #343434;
+	transition: background-color 0.2s ease;
+}
+.stdBtn:hover {
+	background-color: #4e4e4e;
+}
+.stdBtn:active {
+	background-color: #2e2e2e;
+}
+
+/* main ink button */
+#ink {
+	-webkit-border-radius: 8px;
+	border-radius:8px;
+	background-color:rgba(0,0,0,0.15);
+}
+#ink #btn {
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	background-color: #eeeeee;
+	text-align:center;
+	transition: background-color 0.2s ease;
+}
+#ink #btn:hover {
+	background-color: #ffffff;
+}
+#ink #btn:active {
+	background-color: #dddddd;
+}
+
+#settings {
+	background-color:rgba(0,0,0,0.25);
+}

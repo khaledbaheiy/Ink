@@ -1,0 +1,40 @@
+<signatures>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="PackageSignature">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference Type="http://www.w3.org/2000/09/xmldsig#Manifest" URI="#PackageContents">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<DigestValue>8sxL87WIzNKBf/indkwMpEjGOEuTC8O8wRm/T810VrM=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue Id="PackageSignatureValue">p2MRya/jWrvX+FfHm7lBJ0QhQBi/d5nGUMm2V+Wd+KbfQnHWUZvc1RDeUlHpLaaw
+MlTrm5ZK8fkPZW6ys6yS5nsOBVqdhacsd/8A3fe2OWITY6OWTA5KZhMDcxYjv5Aa
+x8e8bOhKSEMLmrDFvPqGbEQ0TaTNfD3srg+MHnDF/YU=</SignatureValue>
+
+<KeyInfo>
+<X509Data>
+<X509Certificate>MIICETCCAXoCCQCZVRAT94XYCTANBgkqhkiG9w0BAQUFADBNMQswCQYDVQQGEwJK
+UDEOMAwGA1UECBMFSmFwYW4xFjAUBgNVBAoTDWNocm9tZXRhcGhvcmUxFjAUBgNV
+BAMTDUNocm9tZXRhcGhvcmUwHhcNMTgwNjEyMDcyNjA3WhcNMjkwODI5MDcyNjA3
+WjBNMQswCQYDVQQGEwJKUDEOMAwGA1UECBMFSmFwYW4xFjAUBgNVBAoTDWNocm9t
+ZXRhcGhvcmUxFjAUBgNVBAMTDUNocm9tZXRhcGhvcmUwgZ8wDQYJKoZIhvcNAQEB
+BQADgY0AMIGJAoGBALag1CsCJU7MhwkXtz2EFQWSlMh3SL5zMGiY4vCqyrw2KsAj
+CmtZ2tyDGWqF0P9dBXToV6dhrKg3TU5M/kq3te3tR7uPj+XxOs+sB8mEnN5bCS9v
+Esq0/v82HnFsT4CwvASaOdXexHsGYEEQw+i44y4dMjCg84WOjt1Nt153z3W7AgMB
+AAEwDQYJKoZIhvcNAQEFBQADgYEAjfNBp0Su68SeQgzt95uDyDXMxSeHycn02IQU
+YftDRy2bdYEQRfxBKgU84fqV+dxPlrDRmH/cvwksfyYZgKbw7ks8WlCLKsqEPiCt
+wwrjhIAE3ErISlQ+Jgykdeabe4ZprX6zIva4iM6SZt43PHFicTK5uC1/6QmZFLQj
+3gxokjA=
+</X509Certificate>
+</X509Data>
+</KeyInfo>
+<Object>
+<Manifest Id="PackageContents">
+<Reference URI="mimetype"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>b07Onu9cTlGK1WpvgtFOlfk+Tl0HscuNIt6GZtesPX8=</DigestValue></Reference><Reference URI="index.html"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>AhmbiTwRIAIAthJ8KMY2xkM/NROxP0iX/PbVF67S3Cw=</DigestValue></Reference><Reference URI="style/main.css"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>GgxRVqENvHFLcVdJhiBTdFPn+qA0I2MQKFpdzx+qv4k=</DigestValue></Reference><Reference URI="style/theme_dark.css"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>GbhNK0OiBUjzjfzycHqx2K9Ks1D95jcFsAjPyn1EiHg=</DigestValue></Reference><Reference URI="CSXS/manifest.xml"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>ou2MoCGuBuwUmmHus7E4i3llo1UP9DUzB+J5yGZ4D9Y=</DigestValue></Reference><Reference URI="icons/panel_icon_dark.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>5nXWl1TejOgJb5VOEIR9NYVDU0KneLiArbkdBv3Avrw=</DigestValue></Reference><Reference URI="icons/panel_icon_light.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>9LGoEksLYtpkQc06QiH0oW5oPJWka2dopc99kD44jlo=</DigestValue></Reference><Reference URI="scripts/main.js"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>BVHoZJZ5UbyiCJSEr61RngGCSb0jzl0qsdpWeUJgtA4=</DigestValue></Reference><Reference URI="ext.js"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>CNuJRXLquMR8vLzhoI998NnqcNJBk46nyC1+dzenCuc=</DigestValue></Reference><Reference URI="lib/CSInterface-4.0.0.js"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>ViMjpc4ZO/CTQullCua3YGvyNNF/gnpNnHjg67qcL8E=</DigestValue></Reference><Reference URI="assets/arrow_r.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>IZvAZzIKll1KiPD/yK7SDu3mHBm+RE635Z9Zs29Xv+0=</DigestValue></Reference><Reference URI="assets/ps.dark/icon_measure_obj_x%402x.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>Q33oDPcmaT+YhAVSmk+INvHm4jh7K9qLc6eiRAxCF/I=</DigestValue></Reference><Reference URI="assets/ps.dark/icon_measure_obj_xy%402x.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>7OnV1vRawYr1cmjPzdaug9J8z8JA2K0z+GiwLdCQpUM=</DigestValue></Reference><Reference URI="assets/ps.dark/icon_measure_sel_xy%402x.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>PgrebZC/6zgxh0eeFBlmu2VqdDdhLhPLbr6Hahcxn/4=</DigestValue></Reference><Reference URI="assets/ps.dark/icon_settings.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>SMV2TX+KWNBGh9/4e3pAJ6TLI1iDsdE3z/4mChkKM3g=</DigestValue></Reference><Reference URI="assets/ps.dark/icon_measure_sel_x%402x.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>eo5O96dmqVZ7Acv+NxIf2bCSsN6JFdw26Z55TKqpxHU=</DigestValue></Reference><Reference URI="assets/ps.dark/icon_measure_obj_y%402x.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>LNJizTCDtDn0pSmCUH3/sJqH9LokNEVOThcmASu4WO4=</DigestValue></Reference><Reference URI="assets/ps.dark/icon_measure_sel_y%402x.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>tsyd/8eX2bFKZsYlRXcLem9Y4bwKNbFN9gJqN6JU+x0=</DigestValue></Reference><Reference URI="assets/ps.dark/icon_document%402x.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>5i22YSljRYK5ZIdqn7Th4FSmt1zaFA9NhP496NZRvyA=</DigestValue></Reference><Reference URI="assets/ink_btn_icon_default.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>uxVDejk0o7tsvaNMW9MQTUgV2OVylidqzq+WdFsh22Q=</DigestValue></Reference><Reference URI="assets/arrow_l.png"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>wgOHkF0gyOCCB862AbLz9L/fdj7z3+NjggyFCogv2g0=</DigestValue></Reference><Reference URI="jsx/InkPrinter.jsx"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>p4ElPT6l3XfZiZ5jYpuPaZr2ci4lO99ueW9mb7NUwm8=</DigestValue></Reference><Reference URI="jsx/ColorUtils.js"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>NwKiHDbzFZXLIQop2Hz3lDz5LB6Zl6BXWyFBZf6oTOs=</DigestValue></Reference><Reference URI="jsx/ColorBlender.js"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>OcdW1lZcV304nL/0J8sWPptzFvDe53RnZX0K/Ghufz8=</DigestValue></Reference><Reference URI="jsx/json2.js"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg=</DigestValue></Reference><Reference URI="jsx/Layers.jsx"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>M2ZOEIr3gRrCrzTpQP+lx5bZTq0S4bXxGyEhQQWOnqc=</DigestValue></Reference><Reference URI="jsx/inkUISettings.jsx"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>6MKicu9tcNnHyPmm9X8CNjpw/AeiFXmfmhrVNOMpdrA=</DigestValue></Reference><Reference URI="jsx/Ink.jsx"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>dDRzloX0kOpj3AZu1P09u+85kY8BSQy+v3TthP8GbZc=</DigestValue></Reference><Reference URI="jsx/Ps2CssUtils.js"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>ljiqgQa0BZ3bzEg7a45tXFXTaF9ySX9PNvgKal0C1pY=</DigestValue></Reference><Reference URI="Ink.jsx"><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>6/hAinuvEuB13K3X1W1onbR9rSomSDX1QWVX5dnkFoQ=</DigestValue></Reference></Manifest>
+</Object>
+</Signature>
+</signatures>
